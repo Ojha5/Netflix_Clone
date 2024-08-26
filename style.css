@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 0px;
+    height: 86px;
+}
+
+#navbar span img{
+    width: 120px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+#navbar div button{
+    position: relative;
+    z-index: 10;
+    padding: 4px 10px;
+    margin: 0px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
