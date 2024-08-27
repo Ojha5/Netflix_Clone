@@ -182,7 +182,7 @@ section.first{
     max-width: 58vw;
     margin: 15px auto;
     width: 100%;
-    padding: 26px;
+    padding: 24px;
     font-size: 20px;
     font-family: "Moderustic", sans-serif;
     background-color: #2d2d2d;
@@ -207,4 +207,31 @@ section.first{
 .left , .right{
     width: 50%;
     font-weight: 500;
+}
+
+footer{
+    color: white;
+    width: 100%;
+    max-width: 61vw;
+    margin: 40px auto;
+    font-family: "Moderustic", sans-serif
+}
+
+.footer{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+footer > h2{
+    padding: 30px 0px;
+    font-size: 25px;
+}
+
+.footer-box ul li{
+    list-style: none;
+    padding: 10px 0px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 100;
 }
